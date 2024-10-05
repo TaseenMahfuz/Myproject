@@ -1,0 +1,60 @@
+body{
+	background-image: url(Background.jpg);
+	margin: 0px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+.f{
+    display: flex;
+}
+
+.f div{
+     max-width: 700px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-top: 300px;
+}     
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.b1{
+    text-align: center;
+    margin-left: 20px;
+    height: 30px;
+    width: 180px;
+    background: linear-gradient(lightblue,darkblue);
+    color: white;
+}
+
+
+input{
+    background: rgba(66, 206, 255, 0.5);
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.b2{
+    text-align: center;
+    margin-left: 20px;
+    height: 30px;
+    width: 180px;
+    background: linear-gradient(#ff661f,#da3920);
+    color: white;
+}
+
+.b2:hover{
+    background: linear-gradient(#009517,#37ff6a);
+}
+
+
